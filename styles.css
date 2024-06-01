@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Changed font */
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/4c266cd8fa30a4a98d1cd27f41ef202e.jpg'); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6);
+}
+
+.proposal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(182, 182, 182, 0.8);
+    padding: 30px; /* Increased padding */
+    border-radius: 30px;
+}
+
+.proposal-box h1 {
+    font-size: 48px; /* Increased font size */
+    color: #333;
+    margin-bottom: 20px; /* Added margin */
+}
+
+.heart {
+    color: red;
+}
+
+.proposal-message p {
+    font-size: 24px;
+    color: #333;
+    line-height: 1.5; /* Increased line height */
+    margin-bottom: 20px; /* Added margin */
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.option {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.option:hover {
+    background-color: #555;
+}

@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('images/desktop-wallpaper-the-best-9-instagram-cute-aesthetic-couple-instagram-couple.jpg');
+    background-size: contain; /* Image ko puri body ke size mein cover karne ke liye */
+    background-position: center; /* Image ko center mein position karne ke liye */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.response-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
